@@ -1,0 +1,8 @@
+{
+  "ollama_host": "http://localhost:11434",
+  "default_model": "llama3",
+  "relevance_threshold": 7,
+  "max_jobs_per_sweep": 50,
+  "time_buckets": ["<30m", "<1h", "<3h", "<6h", "<24h"],
+  "deep_search_months": 3
+}
