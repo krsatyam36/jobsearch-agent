@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directory (SQLite DB + CSVs)
+data/
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+
+# Playwright browser cache
+~/.cache/ms-playwright/
+
+# LinkedIn session profile
+.linkedin_agent_profile/
